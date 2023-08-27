@@ -139,7 +139,7 @@ plt.plot(epochs,j,'bo')
 # In[ ]:
 
 
-calc_cost(predictions,y_train)
+# calc_cost(predictions,y_train)
 
 
 # In[18]:
@@ -149,23 +149,23 @@ calc_cost(predictions,y_train)
 # c = np.array([1,2,3,4])
 
 # np.dot(a,c)
-predictions = yhat()
+# predictions = yhat()
 
 
 # In[ ]:
 
 
 # np.dot((predictions-y).T,x_train)
-k         = np.ones((x_train.shape[1],1))
+# k         = np.ones((x_train.shape[1],1))
 # k.shape
 
 # yhat(x_train,w,b)
 # predictions.reshape(x_train.shape[0],1).shape
 # np.dot(x_train,predictions-y)
-y = y_train
-y.reshape(x_train.shape[0],1)
+# y = y_train
+# y.reshape(x_train.shape[0],1)
 # np.sum(np.dot((predictions-y).T,x_train)>0)
-np.dot((predictions-y_train).T,x_train)
+# np.dot((predictions-y_train).T,x_train)
 # (predictions-y).shape
 
 
@@ -175,7 +175,7 @@ np.dot((predictions-y_train).T,x_train)
 # np.dot(x_train,predictions-y_train)
 # x = np.array([[1,2,3,4],[5,6,7,8],[1,1,1,1]])
 # w = np.array([1,1,1,1]).T # dims = n x 1
-y_train.shape
+# y_train.shape
 # y=np.dot(x,w)
 # predictions = predictions.reshape(x_train.shape[0],1)
 # predictions.shape
@@ -184,25 +184,25 @@ y_train.shape
 # In[ ]:
 
 
-y_train = y_train.reshape((x_train.shape[0],1))
+# y_train = y_train.reshape((x_train.shape[0],1))
 
 
 # In[ ]:
 
 
-(predictions-y_train).shape# a
+# (predictions-y_train).shape
 
 
 # In[ ]:
 
 
-x_train.shape , predictions.shape
+# x_train.shape , predictions.shape
 
 
 # In[ ]:
 
 
-w.shape# y = np.array([20,24,3])
+# w.shape# y = np.array([20,24,3])
 
 # pred = yhat(x,w,0)
 
